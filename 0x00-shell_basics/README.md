@@ -1,1 +1,1 @@
-Printing working directory path
+Where am I? 
