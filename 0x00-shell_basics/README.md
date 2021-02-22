@@ -45,4 +45,4 @@
 * Common shortcuts for Bash
 ### LTS:
 * What does LTS mean?
-<src img="https://www.holbertonschool.com/holberton-logo.png">
+<img src="https://www.holbertonschool.com/holberton-logo.png">
