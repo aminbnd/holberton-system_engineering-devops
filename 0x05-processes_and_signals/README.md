@@ -6,4 +6,5 @@
 * How to kill a process
 * What is a signal
 * What are the 2 signals that cannot be ignored
+<br>
 <img src ="https://www.holbertonschool.com/holberton-logo.png">
