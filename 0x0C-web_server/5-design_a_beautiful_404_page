@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Design 404 page
+
+apt update -y && apt upgrade -y
+apt install nginx -y
+
+# Index page content
+echo "Holberton School" >/var/www/html/index.nginx-debian.html
+
+# Redirection
+sed -i '/listen \[::\]:80 default_server;/a\	rewrite ^\/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+
+# 404 Not Found
+curl -i https://pastebin.com/raw/Pxv2SiYS > /var/www/html/404.html
+sed -i '/TGUlwu4 permanent;$/a\        error_page 404 /404.html;' /etc/nginx/sites-available/default
+
+service nginx restart
