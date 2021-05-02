@@ -1,7 +1,7 @@
 # Scrpit that setup Nginx web server on web-01 server 
 
 package { 'nginx':
-	ensure   => present,
+    ensure   => present,
     provider => 'apt'
 }
 
