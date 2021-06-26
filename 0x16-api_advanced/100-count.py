@@ -8,7 +8,7 @@
 import re
 import requests
 headers = {'user-agent': 'ubuntu:hbtn:v1.0\
- (by /u/Brandixitor)'}
+ (by /u/Tristan_001)'}
 
 
 def count_words(subreddit, word_list, after='', occurs={}):
